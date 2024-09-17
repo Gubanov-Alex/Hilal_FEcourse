@@ -68,8 +68,8 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding: 0 0 230px;
-    background: url("../img/boy.png") 90% 100% no-repeat;
-    background-image: image(url("../img/backgr.png"));
+    background: url("../img/boy.png") 90% 100% no-repeat,
+    url("../img/backgr.png") 83% 100%no-repeat;
 
 }
 .offer__holder {
@@ -173,13 +173,15 @@ body {
 .learn__box {
     display: flex;
     justify-content: space-around;
-
+    padding: 0;
 }
 .learn__text {
     display: flex;
     flex-direction: column;
     width: 539px;
     height: 592px;
+    padding: 0;
+
 }
 .learn__title {
     font-size: 58px;
@@ -213,7 +215,7 @@ learn__description-2 {
     font-size: 58px;
     font-weight: 700;
     line-height: 70px;
-    margin-top: 50;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 .learn__counter-description {
