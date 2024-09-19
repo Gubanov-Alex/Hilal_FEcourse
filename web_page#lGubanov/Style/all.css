@@ -32,9 +32,6 @@ body {
     color: #19191C;
     text-decoration: none;
 }
-icon {
-
-}
 .btn__box {
     display: flex;
     gap: 48px;
@@ -193,6 +190,8 @@ icon {
     font-weight: 700;
     line-height: 70px;
     margin-top:100px;
+    color:  #FBFBFC;
+;
 
 }
 .learn__description {
@@ -200,12 +199,12 @@ icon {
     font-weight: 400;
     line-height: 28px;
     margin: 0;
-
+    color: #EFEFF2;
 }
-learn__description-2 {
-    font-size:12px;
-    font-weight: 200;
-    line-height: 22px;
+.learn__description-2 {
+    font-size:18px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 .learn__counters {
@@ -327,7 +326,7 @@ learn__description-2 {
 }
 .form_name {
     width: 510px;
-    border:21px solid #DEEFE4;
+    border:10px solid #DEEFE4;
     background: #DEEFE4;
     border-bottom:2px solid #19191C ;
     margin-top: 168px;
