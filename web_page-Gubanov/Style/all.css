@@ -13,12 +13,12 @@ body {
 }
 .header {
     background: #EFEFF2;
-    padding-bottom: 234px;
+
 }
 .header_level {
     display: flex;
     justify-content: space-between;
-    padding-top: 36px;
+    padding-top: 0;
 }
 .header__box {
     display: flex;
@@ -79,13 +79,13 @@ body {
     background: #EFEFF2;
     background: url("../img/boy.png") 86% 100% no-repeat,
     url("../img/backgr.png")83% 100% no-repeat,
-    url("../img/Ellipse 21.png") 100% -100% no-repeat;
+    url("../img/Ellipse 21.png") 100% 20% no-repeat;
 }
 .offer_level {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 85px;
+    padding-top: 255px;
 
 }
 .offer__holder {
@@ -93,8 +93,8 @@ body {
     flex-direction: column;
     align-items: flex-start;
     width: 648px;
-    padding-top: 88px;
-    background: url("../img/Ellipse 20.png") 190% 520% no-repeat;  ;  ;
+
+    background: url("../img/Ellipse 20.png") 90% -400% no-repeat;  ;  ;
 
 }
 .offer__title {
@@ -102,7 +102,7 @@ body {
     font-weight: 700;
     line-height: 70px;
     margin: 0;
-    }
+}
 .offer_description {
     margin-bottom: 78px;
 
@@ -137,7 +137,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
-
+    padding-bottom: 150px;
 }
 .offer__list {
     list-style: none;
@@ -157,28 +157,28 @@ body {
 
 }
 .offer__marketer {
-    top: -120px;
+    top: -50px;
     right:10px ;
 }
 .offer__illustrator {
-    top: -180px;
+    top: -140px;
     right: 226px;
 }
 .offer__animator {
-    top: -100px;
+    top: -60px;
     left: 190px;
 }
 .offer__programmer {
-    top: 60px;
-    left: 80px;
+    top: 140px;
+    left: 30px;
 }
 .offer__designer {
-    top: 250px;
+    top: 300px;
     left: -20px;
 }
 .offer__photographer {
-    top: 400px;
-    left: 80px;
+    top: 450px;
+    left: 10px;
 }
 
 .learn {
@@ -280,7 +280,14 @@ body {
     font-weight: 700;
     line-height: 22px;
     margin-bottom: 4px;
-    text-decoration-line: underline;
+    border: hidden;
+    border-bottom: 4px solid ;
+}
+.discover__button {
+    font-size:18px;
+    font-weight: 400;
+    line-height: 22px;
+    border: none;
 }
 
 .discover_seemore {
