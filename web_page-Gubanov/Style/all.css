@@ -264,7 +264,6 @@ body {
 }
 .discover__list {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 
 }
@@ -281,8 +280,7 @@ body {
     font-weight: 700;
     line-height: 22px;
     margin-bottom: 4px;
-    text-decoration-line: underline ;
-
+    text-decoration-line: underline;
 }
 
 .discover_seemore {
@@ -292,12 +290,13 @@ body {
     font-weight: 700;
     line-height: 22px;
     position: relative;
-    padding-right: 84px;
+    padding-right: 80px;
+    margin-bottom: 0;
 }
 .discover__arrow {
     position: absolute;
-    top: -8px;
-    right: 20px;
+    top: 0;
+    right: 0;
 }
 .discover__cards {
     display: flex;
@@ -310,6 +309,8 @@ body {
     font-weight: 700;
     font-size:24px;
     line-height: 26px;
+    text-decoration: none;
+
 }
 .discover__card-lenght {
     color: #6D6D77;
