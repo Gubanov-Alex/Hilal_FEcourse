@@ -32,6 +32,9 @@ body {
     color: #19191C;
     text-decoration: none;
 }
+icon {
+
+}
 .btn__box {
     display: flex;
     gap: 48px;
@@ -69,7 +72,8 @@ body {
     align-items: flex-start;
     padding: 0 0 230px;
     background: url("../img/boy.png") 90% 100% no-repeat,
-    url("../img/backgr.png") 83% 100%no-repeat;
+    url("../img/backgr.png") 83% 100%no-repeat,
+    url("../img/Ellipse 21.png") 100% 20% no-repeat;
 
 }
 .offer__holder {
@@ -172,8 +176,9 @@ body {
 }
 .learn__box {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding: 0;
+    gap: 148px;
 }
 .learn__text {
     display: flex;
@@ -225,6 +230,134 @@ learn__description-2 {
     margin: 0;
     line: #EFEFF2 ;
 }
+
+.discover__box {
+    display: flex;
+    flex-direction: column;
+    font-size:18px;
+    font-weight: 400;
+    line-height: 28px;
+
+
+}
+.discover__title {
+    width: 594px;
+    margin-top: 168px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.discover__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.discover__list-spisok {
+    display: flex;
+    justify-content: flex-start;
+    gap: 48px;
+    list-style: none;
+    padding: 0;
+
+}
+.discover__popular-button {
+    font-size:18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 4px;
+    position: relative;
+}
+.discover_line {
+    position: absolute;
+}
+.discover_seemore {
+    text-decoration: none;
+    color: #19191C;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 22px;
+    position: relative;
+}
+.discover__arrow {
+    position: absolute;
+    top: 8px;
+    right: -60px;
+}
+.discover__cards {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 20px;
+}
+.discover__card-title{
+    font-weight: 700;
+    font-size:24px;
+    line-height: 26px;
+}
+.discover__card-lenght {
+    color: #6D6D77;
+}
+.find-program {
+    background: #DEEFE4;
+    height: 596px;
+;
+}
+.find-program__box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.find-program__title {
+    width: 801px;
+    flex-wrap: wrap;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-top: 168px;
+}
+.find-program__form {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 38px;
+}
+.form_name {
+    width: 510px;
+    border:21px solid #DEEFE4;
+    background: #DEEFE4;
+    border-bottom:2px solid #19191C ;
+    margin-top: 168px;
+    font-weight: 400;
+    font-size:18px;
+    line-height: 28px;
+}
+.form_email {
+    width: 510px;
+    border:10px solid #DEEFE4;
+    background: #DEEFE4;
+    border-bottom:2px solid #19191C ;
+    font-weight: 400;
+    font-size:18px;
+    line-height: 28px;
+
+}
+.find-program__button {
+    background-color: #19191C;
+    color: #EFEFF2;
+    padding: 16px 37px ;
+    gap:10px;
+    width: 154px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+
 
 
 

@@ -18,7 +18,11 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li>
-                    <a class="link icon" href="#">courses</a>
+                    <a class="link icon" href="#">courses
+                        <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L8 8L14 2" stroke="#19191C" stroke-width="2" stroke-linecap="square"/>
+                        </svg>
+                    </a>
                 </li>
                 <li>
                     <a class="link" href="#">Teachers</a>
@@ -30,10 +34,13 @@
         </nav>
     </div>
     <div class="btn__box">
-          <a class="header__link" href="#">
+          <a class="header__link "  href="#" >
              En
+              <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 2L8 8L14 2" stroke="#19191C" stroke-width="2" stroke-linecap="square"/>
+              </svg>
           </a>
-          <a class="header__link" href="#">
+        <a class="header__link" href="#">
               Sign In
           </a>
           <a class="header__btn" href="#">
@@ -142,105 +149,118 @@
         </div>
 
     </section>
-    <section class="discover">
-        <h2 class="discover__title">
-            Discover Lifelong Learning
-        </h2>
-        <ul class="discover__list">
-            <li>
-                <button class="discover__button">
-                    Popular
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Animation
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Design
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Illustration
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Programming
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Photo & Film
-                </button>
-            </li>
-            <li>
-                <button class="discover__button">
-                    Marketing
-                </button>
-            </li>
-        </ul>
-        <a href="#">
-            See more
-            <img src="img/seemore-arrow.svg" alt="See more">
-        </a>
-        <div class="discover__cards">
-            <article class="discover__card-item">
-                <img src="img/card_img1.jpg" alt="Sales Marketing">
-                <h3 class="discover__card-title">
-                    Sales Marketing
-                </h3>
-                <p class="discover__card-lenght">
-                    6 months
-                </p>
-            </article>
-            <article class="discover__card-item">
-                 <img src="img/card_img2.jpg" alt="Data analytics">
-                 <h3 class="discover__card-title">
+    <section class="discover container">
+        <div class="discover__box">
+            <h2 class="discover__title">
+                Discover Lifelong Learning
+            </h2>
+            <div class="discover__list">
+                <div >
+                    <ul class="discover__list-spisok" >
+                        <li>
+                            <p class="discover__popular-button" >
+                                Popular
+                            </p>
+                            <img class="discover_line" src="img/line_black.svg" alt="See more" >
+                        </li>
+                        <li>
+                            <p class="discover__button">
+                                Animation
+                            </p>
+                        </li>
+                        <li>
+                            <p class="discover__button">
+                                Design
+                            </p>
+                        </li>
+                        <li>
+                            <p class="discover__button">
+                                Illustration
+                            </p>
+                        </li>
+                        <li>
+                            <p class="discover__button">
+                                Programming
+                            </p>
+                        </li>
+                        <li>
+                            <p class="discover__button">
+                                Photo & Film
+                            </p>
+                        </li>
+                        <li>
+                            <p class="discover__button">
+                                Marketing
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="discover_seemore">
+                    <p >
+                    See more <img class="discover__arrow" src="img/seemore-arrow.svg" alt="See more">
+                    </p>
+                </div>
+            </div>
+            <div class="discover__cards">
+                <article class="discover__card-item">
+                    <img src="img/card_img1.jpg" alt="Sales Marketing">
+                    <h3 class="discover__card-title">
+                        Animation
+                    </h3>
+                    <p class="discover__card-lenght">
+                        8 months
+                    </p>
+                </article>
+                <article class="discover__card-item">
+                    <img src="img/card_img2.jpg" alt="Data analytics">
+                    <h3 class="discover__card-title">
+                        Design art
+                    </h3>
+                    <p class="discover__card-lenght">
+                        4 months
+                    </p>
+                </article>
+                <article class="discover__card-item">
+                    <img src="img/card_img3.jpg" alt="Design art">
+                    <h3 class="discover__card-title">
                         Data analytics
-                 </h3>
-                 <p class="discover__card-lenght">
+                    </h3>
+                    <p class="discover__card-lenght">
                         9 months
-                 </p>
-            </article>
-            <article class="discover__card-item">
-                 <img src="img/card_img3.jpg" alt="Design art">
-                 <h3 class="discover__card-title">
-                     Design art
-                 </h3>
-                 <p class="discover__card-lenght">
-                     4 months
-                 </p>
-            </article>
-            <article class="discover__card-item">
-                 <img src="img/card_img4.jpg" alt="Animation">
-                 <h3 class="discover__card-title">
-                     Animation
-                 </h3>
-                 <p class="discover__card-lenght">
-                     8 months
-                 </p>
-            </article>
+                    </p>
+                </article>
+                <article class="discover__card-item">
+                    <img src="img/card_img4.jpg" alt="Animation">
+                    <h3 class="discover__card-title">
+                        Sales Marketing
+                    </h3>
+                    <p class="discover__card-lenght">
+                        6 months
+                    </p>
+                </article>
+            </div>
         </div>
     </section>
-    <section class="find-program">
-        <div class="c_text">
-            <h2 class="find-program__title">
-                Can't find a suitable program?
-            </h2>
-            <p class="find-program__description">
-                We will help you with the choice!
-            </p>
-            <form action="https://fom.in.ua/echo" class="find-program__form">
-                <input name="name" placeholder="Name" required type="text">
-                <input name="email" placeholder="Email" required type="email">
-                <button class="find-program__form">
-                    Help me
-                </button>
-            </form>
+    <section class="find-program container">
+        <div class="find-program__box">
+            <div class="find-program__leftside">
+                <h2 class="find-program__title">
+                    Can't find a suitable program?
+                </h2>
+                <p class="find-program__description">
+                    We will help you with the choice!
+                </p>
+            </div >
+            <div class="find-program__form">
+                <form  action="https://fom.in.ua/echo" class="find-program__form">
+                    <input class="form_name" name="name" placeholder="Name" required type="text">
+                    <input class="form_email" name="email" placeholder="Email" required type="email">
+                    <button class="find-program__button">
+                        Help me
+                    </button>
+                </form>
+            </div>
+
         </div>
     </section>
 </main>
