@@ -3,15 +3,22 @@ body {
     margin: 0;
     color: #19191C;
     font: 400 18px/28px Inter, sans-serif;
+    width: 1920px;
+    height: 1080px;
 }
 .container {
     width: 1440px;
-    margin: 0 auto;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 .header {
+    background: #EFEFF2;
+    padding-bottom: 234px;
+}
+.header_level {
     display: flex;
     justify-content: space-between;
-    padding: 36px 0;
+    padding-top: 36px;
 }
 .header__box {
     display: flex;
@@ -34,8 +41,9 @@ body {
 }
 .btn__box {
     display: flex;
+    justify-content: flex-end;
     gap: 48px;
-    align-items: center;
+    padding-top: 36px;
 }
 .logo{
     font-weight: 800;
@@ -53,24 +61,31 @@ body {
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
+    text-wrap: nowrap;
 }
 .header__btn {
+    text-wrap: nowrap;
     background-color: #19191C;
     color: #EFEFF2;
     padding: 12px 37px;
+    gap:10px;
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
+    margin-top: -15px;
 }
 .offer {
+    background: #EFEFF2;
+    background: url("../img/boy.png") 86% 100% no-repeat,
+    url("../img/backgr.png")83% 100% no-repeat,
+    url("../img/Ellipse 21.png") 100% -100% no-repeat;
+}
+.offer_level {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 0 230px;
-    background: url("../img/boy.png") 90% 100% no-repeat,
-    url("../img/backgr.png") 83% 100%no-repeat,
-    url("../img/Ellipse 21.png") 100% 20% no-repeat;
+    padding-top: 85px;
 
 }
 .offer__holder {
@@ -79,7 +94,7 @@ body {
     align-items: flex-start;
     width: 648px;
     padding-top: 88px;
-    background: url("../img/Ellipse 20.png")  180% 100% no-repeat;  ;  ;
+    background: url("../img/Ellipse 20.png") 190% 520% no-repeat;  ;  ;
 
 }
 .offer__title {
@@ -142,28 +157,28 @@ body {
 
 }
 .offer__marketer {
-    top: 138px;
-    right:98px ;
+    top: -120px;
+    right:10px ;
 }
 .offer__illustrator {
-    top: 60px;
-    right: 340px;
+    top: -180px;
+    right: 226px;
 }
 .offer__animator {
-    top: 150px;
-    left: 40px;
+    top: -100px;
+    left: 190px;
 }
 .offer__programmer {
-    top: 330px;
-    left: -80px;
+    top: 60px;
+    left: 80px;
 }
 .offer__designer {
-    top: 500px;
-    left: -180px;
+    top: 250px;
+    left: -20px;
 }
 .offer__photographer {
-    top: 640px;
-    left: -100px;
+    top: 400px;
+    left: 80px;
 }
 
 .learn {
@@ -227,7 +242,10 @@ body {
     font-weight: 200;
     line-height: 28px;
     margin: 0;
-    line: #EFEFF2 ;
+    color: #EFEFF2 ;
+}
+.discover__level {
+    padding-bottom: 168px;
 }
 
 .discover__box {
@@ -236,9 +254,7 @@ body {
     font-size:18px;
     font-weight: 400;
     line-height: 28px;
-
-
-}
+    }
 .discover__title {
     width: 594px;
     margin-top: 168px;
@@ -265,11 +281,10 @@ body {
     font-weight: 700;
     line-height: 22px;
     margin-bottom: 4px;
-    position: relative;
+    text-decoration-line: underline ;
+
 }
-.discover_line {
-    position: absolute;
-}
+
 .discover_seemore {
     text-decoration: none;
     color: #19191C;
@@ -277,11 +292,12 @@ body {
     font-weight: 700;
     line-height: 22px;
     position: relative;
+    padding-right: 84px;
 }
 .discover__arrow {
     position: absolute;
-    top: 8px;
-    right: -60px;
+    top: -8px;
+    right: 20px;
 }
 .discover__cards {
     display: flex;
