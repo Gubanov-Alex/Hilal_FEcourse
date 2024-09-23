@@ -106,7 +106,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 255px;
-
 }
 .offer__holder {
     display: flex;
@@ -123,7 +122,6 @@ body {
 }
 .offer_description {
     margin-bottom: 78px;
-
 }
 .offer__link {
     color: #504DEE;
@@ -172,7 +170,6 @@ body {
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
-
 }
 .offer__marketer {
     top: -50px;
@@ -254,7 +251,6 @@ body {
     width: 539px;
     height: 592px;
     padding: 0;
-
 }
 .learn__title {
     font-size: 58px;
@@ -262,8 +258,6 @@ body {
     line-height: 70px;
     margin-top:100px;
     color:  #FBFBFC;
-;
-
 }
 .learn__description {
     font-size: 18px;
@@ -277,7 +271,6 @@ body {
     font-weight: 400;
     line-height: 28px;
 }
-
 .learn__counters {
     display: flex;
     justify-content: space-between;
@@ -318,9 +311,7 @@ body {
     .learn__container {
         flex-wrap: wrap;
     }
-
 }
-
 .learn__counter-number {
     font-size: 58px;
     font-weight: 700;
@@ -339,7 +330,6 @@ body {
 .discover__level {
     padding-bottom: 168px;
 }
-
 .discover__box {
     display: flex;
     flex-direction: column;
@@ -357,7 +347,6 @@ body {
 .discover__list {
     display: flex;
     justify-content: space-between;
-
 }
 .discover__list-spisok {
     display: flex;
@@ -365,7 +354,6 @@ body {
     gap: 48px;
     list-style: none;
     padding: 0;
-
 }
 .discover__popular-button {
     font-size:18px;
@@ -409,7 +397,6 @@ body {
     font-size:24px;
     line-height: 26px;
     text-decoration: none;
-
 }
 .discover__card-lenght {
     color: #6D6D77;
@@ -444,10 +431,7 @@ body {
     .discover__level {
          padding-bottom: 30px ;
     }
-
 }
-
-
 
 .find-program {
     background: #DEEFE4;
@@ -533,9 +517,7 @@ body {
         font-size: 18px;
         line-height: 28px;
     }
-
 }
-
 
 .footer {
     background: #19191C;
