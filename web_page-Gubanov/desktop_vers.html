@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable = no, initial-scale = no, maximum-scale = 1.0, minimum-scale = 1.0">
+    <meta http-equiv="X-UA-Compaitable" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style/all.css">
     <title>Title</title>
-    </head>
+</head>
 <body>
 <header class="header">
     <div class="header_level  container">
@@ -97,9 +100,9 @@
 
     </section>
     <section class="learn ">
-        <div class="learn__box container">
-            <div class="learn__text">
-                <h2 class="learn__title">
+        <div class="learn__box learn__container container">
+            <div class="learn__text learn__container">
+                <h2 class="learn__title ">
                     What you will learn
                 </h2>
                 <p class="learn__description">
@@ -121,7 +124,7 @@
                     <p class="learn__counter-description">
                         Courses
                     </p>
-                    <svg width="138" height="4" viewBox="0 0 178 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="learn_lines" width="138" height="4" viewBox="0 0 178 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="178" y1="2" y2="2" stroke="#FBFBFC" stroke-width="4"/>
                     </svg>
                 </div>
@@ -132,10 +135,9 @@
                     <p class="learn__counter-description">
                         Curators
                     </p>
-                    <svg width="138" height="4" viewBox="0 0 178 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="learn_lines" width="138" height="4" viewBox="0 0 178 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="178" y1="2" y2="2" stroke="#FBFBFC" stroke-width="4"/>
                     </svg>
-
                 </div>
                 <div class="learn__counter-item">
                     <p class="learn__counter-number">
@@ -145,7 +147,7 @@
                     <p class="learn__counter-description">
                         Graduates
                     </p>
-                    <svg width="138" height="4" viewBox="0 0 178 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="learn_lines" width="138" height="4" viewBox="0 0 178 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="178" y1="2" y2="2" stroke="#FBFBFC" stroke-width="4"/>
                     </svg>
                 </div>
@@ -272,7 +274,7 @@
 </main>
 
 <footer class="footer">
-    <div class="level container">
+    <div class="footer__level container">
         <div class="footer__up">
             <div class="footer__box">
                 <a class="logo" href="index.html">
@@ -361,12 +363,12 @@
                 </ul>
             </div>
             <div class="footer__sitemap">
-                <h6 class="footer__site-maptitle">
+                <h6 class="footer__site-maptitle footer_engl">
                     En
                 </h6>
-                <ul class="footer__site-maplist">
+                <ul class="footer__site-maplist ">
                     <li>
-                        <a class="link__courses"  href="#">
+                        <a class="link__courses "  href="#">
                             English
                         </a>
                     </li>
@@ -394,7 +396,6 @@
             </div>
         </div>
     </div>
-</footer>
-<script src="scripts/script.js"></script>
+    </footer>
 </body>
 </html>
